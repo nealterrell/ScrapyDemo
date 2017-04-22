@@ -15,4 +15,5 @@ Requires Python 3+. I like [Anaconda](https://www.continuum.io/downloads).
     1. `scrapy runspider demo_titles.py -o output_titles.json` -- scrapes the titles of blog posts from https://blog.scrapinghub.com/
     2. `scrapy runspider demo_content.py -o output_content.json` -- scrapes titles and (unstripped) content from the same URL
     3. `scrapy runspider demo_content_beautiful.py -o output_beautiful.json` -- scrapes titles and stripped content via BeautifulSoup.
+    4. `scrapy runspider national_parks.py -o parks_ct.py` -- scrapes the National Parks Service site for Connecticut parks.
 
